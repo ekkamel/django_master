@@ -9,4 +9,4 @@ class Main(models.Model):       # capital Main in order not to get confused with
     name = models.TextField()
     
     def __str__(self):
-        return self.main 
+        return self.name 

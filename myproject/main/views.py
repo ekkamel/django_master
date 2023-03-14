@@ -7,3 +7,7 @@ def home(request):
 
     return render(request, 'home.html')  # when processed, this function will open
                                          # home page
+
+def bath(request): 
+
+    return render(request, 'bath.html')
